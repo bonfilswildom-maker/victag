@@ -2,52 +2,66 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ZIGASS - Gagne avec VIP 500F</title>
+<title>ZIGASS - VIP, Matchs, Musique</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
 body{background:#0a0a0a;color:#fff;text-align:center}
-header{padding:20px;background:#000;font-size:28px;font-weight:900;letter-spacing:4px}
+header{padding:18px;background:#000;font-size:26px;font-weight:900;letter-spacing:3px;position:sticky;top:0;z-index:10}
 header span{color:#25D366}
-.hero{padding:60px 6%;background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.9)),url('https://images.unsplash.com/photo-1515372039744-b8f02a3c67ae?w=1200');background-size:cover}
-.hero h1{font-size:50px;line-height:1}
-.btn{display:inline-block;padding:16px 30px;border-radius:30px;text-decoration:none;font-weight:900;margin:10px}
+.hero{padding:50px 6%;background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.95)),url('https://images.unsplash.com/photo-1515372039744-b8f02a3c67ae?w=1200');background-size:cover}
+.btn{display:inline-block;padding:14px 24px;border-radius:30px;text-decoration:none;font-weight:900;margin:8px;font-size:14px}
 .btn-green{background:#25D366;color:#fff}
-.vip{background:#25D366;padding:30px;border-radius:15px;margin:30px 6%;border:4px solid #fff}
-.vip h2{font-size:28px}
-.momo{font-size:32px;font-weight:900;margin:15px 0;background:#fff;color:#25D366;padding:10px;border-radius:10px;display:inline-block}
-.products{padding:40px 6%;background:#fff;color:#000}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-top:20px}
-.card{border:1px solid #ddd;padding:10px;border-radius:10px}.card img{width:100%;height:200px;object-fit:cover}
-footer{padding:30px;background:#000;color:#666}
+.vip{background:#25D366;padding:25px;border-radius:15px;margin:20px 6%;border:4px solid #fff}
+.momo{font-size:28px;font-weight:900;margin:12px 0;background:#fff;color:#25D366;padding:10px;border-radius:10px;display:inline-block}
+.section{padding:35px 6%;border-top:3px solid #333}
+.card-pub{background:#fff;color:#000;padding:12px;border-radius:12px;max-width:600px;margin:15px auto;display:flex;gap:12px;align-items:center;text-align:left}
+.card-pub img{width:75px;height:75px;object-fit:cover;border-radius:10px}
+footer{padding:25px;background:#000;color:#666;font-size:13px}
 </style>
 </head>
 <body>
-<header>ZIG<span>ASS</span> - BÉNIN</header>
+<header>ZIG<span>ASS</span></header>
+
 <div class="hero">
-<h1>GAGNE DE L'ARGENT<br>AVEC ZIGASS</h1>
-<p style="margin:20px auto;max-width:500px;color:#aaa;">Rejoins la communauté VIP ZIGASS. Contenu exclusif, astuces, business au Bénin.</p>
-<a href="#vip" class="btn btn-green">DEVENIR VIP - 500F SEULEMENT</a>
+<h1 style="font-size:42px;">ZIGASS BÉNIN</h1>
+<p style="margin:15px auto;max-width:500px;color:#ccc;">VIP 500F • Matchs • Musique • Business</p>
+<a href="#vip" class="btn btn-green">DEVENIR VIP 500F</a>
+<a href="#matchs" class="btn" style="background:#ff3c00;color:#fff;">⚽ MATCHS</a>
+<a href="#musique" class="btn" style="background:#1DB954;color:#fff;">🎵 MUSIQUE</a>
 </div>
 
 <div class="vip" id="vip">
-<h2>💰 DEVIENS VIP ZIGASS - 500F</h2>
-<p style="margin:15px 0;">Accès immédiat au groupe privé + astuces pour gagner</p>
+<h2>💰 DEVIENS VIP - 500F</h2>
 <p>Envoie 500F sur :</p>
-<div class="momo">MTN MoMo: 01 93 37 49 61</div>
-<p>Nom: BONFILS WILDOM</p>
-<p style="margin-top:15px;font-size:13px;">Après paiement, envoie la capture sur WhatsApp</p>
-<a href="https://wa.me/2290193374961?text=Salut%20ZIGASS%20!%20J'ai%20envoye%20500F%20pour%20VIP" class="btn" style="background:#111;color:#fff;margin-top:15px;">📲 CONFIRMER SUR WHATSAPP</a>
+<div class="momo">MTN: 01 93 37 49 61</div>
+<p>Après, envoie capture WhatsApp</p>
+<a href="https://wa.me/2290193374961?text=Salut%20ZIGASS%20!%20J'ai%20envoye%20500F%20pour%20VIP" class="btn" style="background:#111;color:#fff;margin-top:10px;">📲 CONFIRMER SUR WHATSAPP</a>
 </div>
 
-<div class="products">
-<h2>POURQUOI VIP ?</h2>
-<div class="grid">
-<div class="card"><h3>🔥 Contenu Exclusif</h3><p>Vidéos, astuces business Bénin</p></div>
-<div class="card"><h3>💬 Groupe Privé</h3><p>WhatsApp / Telegram VIP</p></div>
-<div class="card"><h3>💸 Gagne Plus</h3><p>Revends ZIGASS et garde 100%</p></div>
-</div>
+<div id="matchs" class="section" style="background:#000;border-color:#ff3c00;">
+<h2 style="color:#ff3c00;">⚽ PUBS MATCHS DU JOUR</h2>
+<p style="color:#888;font-size:13px;">Tu veux publier ta pub ? 1000F seulement</p>
+
+<div class="card-pub">
+<img src="https://images.unsplash.com/photo-1574629810360-214f3774381b?w=200">
+<div><h3>Barça vs Real - 20h</h3><p style="font-size:12px;color:#666;">Cote boostée - Gagne gros</p><a href="https://wa.me/2290193374961?text=Je%20veux%20parier%20Barca%20Real" style="background:#ff3c00;color:#fff;padding:6px 12px;border-radius:15px;text-decoration:none;font-size:11px;">PARIER</a></div>
 </div>
 
-<footer>ZIGASS - Cocotomey, Bénin | WhatsApp: 01 93 37 49 61<br>© 2026 ZIGASS</footer>
+<a href="https://wa.me/2290193374961?text=Je%20veux%20publier%20ma%20pub%20de%20match%20sur%20ZIGASS%201000F" style="color:#ff3c00;font-weight:900;text-decoration:none;">+ Publier ma pub Match (1000F) →</a>
+</div>
+
+<div id="musique" class="section" style="background:#111;border-color:#1DB954;">
+<h2 style="color:#1DB954;">🎵 PUBS MUSIQUE</h2>
+<p style="color:#888;font-size:13px;">Artistes : Publiez votre son ici - 2000F</p>
+
+<div class="card-pub" style="background:#222;color:#fff;">
+<img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200">
+<div><h3>VANO - Nouveau Son 2026</h3><p style="font-size:12px;color:#aaa;">Bénin Afro - Disponible</p><a href="https://wa.me/2290193374961?text=Je%20veux%20écouter%20VANO" style="background:#1DB954;color:#fff;padding:6px 12px;border-radius:15px;text-decoration:none;font-size:11px;">▶️ ÉCOUTER</a></div>
+</div>
+
+<a href="https://wa.me/2290193374961?text=Je%20veux%20publier%20ma%20musique%20sur%20ZIGASS%202000F" style="color:#1DB954;font-weight:900;text-decoration:none;">+ Publier ma musique (2000F) →</a>
+</div>
+
+<footer>ZIGASS - Cocotomey, Bénin<br>WhatsApp: 01 93 37 49 61 | MTN MoMo: 01 93 37 49 61<br>© 2026 ZIGASS</footer>
 </body>
 </html>
